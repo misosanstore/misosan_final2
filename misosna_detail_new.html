@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>천연 허브와 자연 성분의 조화 - 미소산</title>
+    <style>
+        /* 화이트/블루 톤 유지, 초록색 포인트 */
+        :root {
+            --primary-blue: #1e88e5;
+            --light-blue: #e3f2fd;
+            --accent-green: #fc7e7e; /* 포인트 초록색 */
+            --text-dark: #333;
+            --text-light: #757575;
+            --white: #ffffff;
+            --light-gray: #f5f5f5;
+        }
+        
+        body {
+            font-family: 'Noto Sans KR', sans-serif;
+            line-height: 1.6;
+            color: var(--text-dark);
+            margin: 0;
+            padding: 0;
+            background-color: var(--white);
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .hero {
+            background-color: var(--light-blue);
+            padding: 60px 0;
+            text-align: center;
+        }
+        h1, h2 {
+            color: var(--primary-blue);
+        }
+        h3, h4 {
+            color: var(--accent-green);
+        }
+        .cta-button {
+            display: inline-block;
+            background-color: var(--primary-blue);
+            color: var(--white);
+            padding: 12px 24px;
+            text-decoration: none;
+            border-radius: 4px;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+        .cta-button:hover {
+            background-color: #1565c0;
+        }
+        .accent-text {
+            color: var(--accent-green);
+        }
+        .feature-section {
+            display: flex;
+            justify-content: space-between;
+            margin: 40px 0;
+            flex-wrap: wrap;
+        }
+        .feature-card {
+            flex: 1;
+            min-width: 300px;
+            padding: 20px;
+            margin: 10px;
+            background-color: var(--light-gray);
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            border-top: 3px solid var(--primary-blue);
+        }
+        .herb-card {
+            border-top-color: var(--accent-green);
+        }
+        .testimonial {
+            background-color: var(--light-gray);
+            padding: 20px;
+            margin: 20px 0;
+            border-left: 4px solid var(--primary-blue);
+        }
+        .process-step {
+            display: flex;
+            margin: 30px 0;
+        }
+        .step-number {
+            font-size: 24px;
+            font-weight: bold;
+            color: var(--primary-blue);
+            margin-right: 20px;
+            min-width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background-color: var(--light-blue);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .faq-item {
+            margin-bottom: 20px;
+        }
+        .faq-question {
+            font-weight: bold;
+            color: var(--primary-blue);
+        }
+        footer {
+            background-color: var(--primary-blue);
+            color: var(--white);
+            padding: 40px 0;
+            margin-top: 60px;
+        }
+        .herb-highlight {
+            background-color: rgba(67, 160, 71, 0.1);
+            padding: 15px;
+            border-radius: 8px;
+            margin: 20px 0;
+            border-left: 3px solid var(--accent-green);
+        }
+        .two-column {
+            display: flex;
+            gap: 30px;
+        }
+        .column {
+            flex: 1;
+        }
+        @media (max-width: 768px) {
+            .two-column {
+                flex-direction: column;
+            }
+            .feature-card {
+                min-width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="hero">
+    <div class="container">
+        <h1>천연물과 허브 자연 성분의 조화 <br> 맞춤 건강 솔루션 " 미소산 "</h1>
+        <p> 미소산으로 체내 균형을 찾고 건강한 일상을 되찾으세요</p>
+        <a href="#consultation" class="cta-button">맞춤 상담 신청하기</a>
+    </div>
+</div>
+
+<div class="container">
+    <section>
+        <h2>체내 열을 다스리는 천연물과 허브의 힘</h2>
+        <div class="two-column">
+            <div class="column">
+                <p>미소산은 자연에서 얻은 천연 허브와 식물 추출물을 바탕으로 개발된 맞춤형 조제약입니다. 엄선된 천연 성분의 조화로운 조합은 체내 균형을 회복시키는 열쇠입니다.</p>
+                <p>현대인의 생활 습관과 스트레스는 체내에 과도한 열을 발생시킬 수 있습니다. 미소산의 천연 허브 성분은 이러한 체내 열을 효과적으로 조절하여 신체의 자연적인 균형을 찾아줍니다.</p>
+                <p>호르몬제나 항생제, 면역 억제제가 아닌 천연 허브 기반의 조제약인 미소산은 표준화된 제조약의 획일적인 처방이 아닌, <span class="accent-text">개개인의 상태에 맞춤 제작됩니다.</span></p>
+            </div>
+            <div class="column">
+                <img src="\misosan_drug\misosan_drugstore_files\hub2.jpg" alt=" 허브 이미지" style="max-width: 90%; border-radius: 8px;">
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>안전한 천연물의 과학적 조합</h2>
+        
+        <div class="herb-highlight">
+            <h3>핵심 천연 성분의 효능</h3>
+            <div class="feature-section">
+                <div class="feature-card herb-card">
+                    <h4>황금 (Scutellaria baicalensis)</h4>
+                    <p>황금은 전통적으로 체내 열을 조절하는데 사용되어 온 귀중한 천연 성분입니다. 황금에 포함된 바이칼린(Baicalin)과 바이칼레인(Baicalein) 성분은 신체의 자연적인 방어 시스템을 지원합니다.</p>
+                    <ul>
+                        <li>체내 과잉 열 조절 작용</li>
+                        <li>균형 잡힌 면역 체계 지원</li>
+                        <li>항산화 작용으로 세포 보호</li>
+                    </ul>
+                </div>
+                
+                <div class="feature-card herb-card">
+                    <h4>복령 (Poria cocos)</h4>
+                    <p>복령은 진귀한 버섯 종류로, 오랫동안 동양 전통 요법에서 활용되어 온 자연 성분입니다. 복령의 천연 다당체와 트리터페노이드는 신체의 수분 균형에 도움을 줍니다.</p>
+                    <ul>
+                        <li>체내 수분 균형 조절</li>
+                        <li>편안한 휴식과 안정감 제공</li>
+                        <li>스트레스 상황에서의 적응력 향상</li>
+                    </ul>
+                </div>
+                
+                <div class="feature-card herb-card">
+                    <h4>특화된 허브 블렌드</h4>
+                    <p>카모마일, 라벤더, 페퍼민트 등의 허브는 진정 효과를 제공하며, 녹차와 로즈마리 같은 허브는 신진대사를 지원합니다. 이러한 허브들이 조화롭게 배합되어 체내 균형을 유지하는 데 도움을 줍니다.</p>
+                    <ul>
+                        <li>신체 진정 및 이완 효과</li>
+                        <li>자연적인 활력 지원</li>
+                        <li>항산화 영양소 공급</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>자연과 균형의 원리</h2>
+        <div class="feature-section">
+            <div class="feature-card">
+                <h3>진정 성분</h3>
+                <ul>
+                    <li>체내 열을 식혀주고 진정 효과</li>
+                    <li>카모마일, 라벤더 등 진정 허브 포함</li>
+                    <li>균형 있는 체내 환경 조성</li>
+                </ul>
+            </div>
+            <div class="feature-card">
+                <h3>활력 성분</h3>
+                <ul>
+                    <li>자연스러운 에너지와 활력 공급</li>
+                    <li>녹차, 로즈마리 등 활력 허브 함유</li>
+                    <li>체내 순환 촉진</li>
+                </ul>
+            </div>
+        </div>
+        <p>천연 허브의 상호보완적인 작용이 균형을 이루면 체내 순환이 원활해지고, 자연적인 회복 능력이 향상됩니다.</p>
+    </section>
+
+    <section>
+        <h2>우연한 발견, 끊임없는 개선</h2>
+        <img src="https://page1.genspark.site/misosan_drug/misosan_drugstore_files/hb3.png" alt="허브 이미지" style="max-width: 100%; margin: 20px 0; border-radius: 8px;">
+        <h3>미소산은 이렇게 탄생했습니다</h3>
+        <p>미소산 약사는 스트레스로 인한 건강 이슈를 개선하기 위해 연구하던 중, 미소산의 정수가 담긴 천연 허브 조합을 발견했습니다.</p>
+        <p>직접 복용하며 그 효과를 확인한 후, <strong>자연의 균형 원리에서 미소산의 다양한 가능성을 발견했습니다.</strong></p>
+        <p>약국 직원들이 퇴근한 늦은 밤, 조제실에서 끊임없이 조합하고 복용하며 미소산 레시피를 개선해 왔습니다.</p>
+        <p>이러한 노력으로 탄생하고 개선된 미소산은 <strong>지난 4년간 누적 3,000건이 넘는 처방으로 이어졌으며,</strong> 수 많은 고객 상담, 처방 및 복용 후 상태 개선 사례들이 그 효과를 증명하고 있습니다.</p>
+        
+        <div style="display: flex; justify-content: space-around; margin: 40px 0; text-align: center;">
+            <div>
+                <h3>3,000+</h3>
+                <p>누적 처방 건수</p>
+            </div>
+            <div>
+                <h3>2,000+</h3>
+                <p>맞춤 레시피 개선</p>
+            </div>
+            <div>
+                <h3>91</h3>
+                <p>건강 설문 항목</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>천연 허브의 균형 효과</h2>
+        <p>천연 허브와 식물 추출물은 다양한 신체 기능을 지원합니다</p>
+        
+        <div class="feature-section">
+            <div class="feature-card">
+                <h3>체내 온도 균형</h3>
+                <p>황금, 작약 등의 천연 성분은 체내 열을 효과적으로 조절하여 신체의 자연적인 온도 균형을 유지하는 데 도움을 줍니다.</p>
+            </div>
+            <div class="feature-card">
+                <h3>모발과 두피 건강</h3>
+                <p>허브 성분들은 두피 환경을 개선하고 모근에 영양을 공급하여 건강한 두피와 모발을 유지하는 데 도움이 됩니다.</p>
+            </div>
+            <div class="feature-card">
+                <h3>피부 건강 지원</h3>
+                <p>항산화 성분이 풍부한 허브들은 피부 세포를 보호하고, 자연적인 피부 장벽을 강화하여 건강한 피부 상태를 유지하는 데 기여합니다.</p>
+            </div>
+            <div class="feature-card">
+                <h3>간 기능 지원</h3>
+                <p>밀크시슬, 단삼 등의 천연 성분은 간의 자연적인 해독 기능을 지원하고 전반적인 간 건강에 도움을 줍니다.</p>
+            </div>
+        </div>
+    </section>
+
+
+<div class="container"></div>
+    <section>
+        <h2>가족에게 처방하는 "미소산"</h2>
+        <div class="two-column">
+            <div class="column">
+                <p>오늘도 딸 바보 아빠, 미소산 약사.</p>
+                <p>미소산 약사는 약사이기 이전에, 딸 바보 아빠 입니다.</p>
+                <p>눈에 넣어도 아프지 않은 <strong>딸의 피부 건강</strong>을 위해 미소산을 처방하고 있습니다.</p>
+                <p>그리고 본인 스스로도 이미 처방하며 장기 복용하고 있는 미소산 입니다.</p>
+                <p>미소산 약사가 가족을 포함하여 친지 그리고 친구들 까지<br>
+                <strong>가장 가까운 사람들이 찾고 있는 미소산 입니다.</strong></p>
+            </div>
+            <div class="column">
+                <img src="\misosan_drug\misosan_drugstore_files\hub3.jpg" alt="가족 이미지" style="max-width: 75%; margin: 20px 0; border-radius: 8px;">
+            </div>
+        </div>
+    </section>
+
+
+    <section>
+        <h2>미소산 - 맞춤형 건강 관리 솔루션</h2>
+        <h3>천연 허브의 힘으로 건강 균형을 찾는 약사의 자부심 : "미소산"</h3>
+        
+        <h3>미소산 맞춤 과정</h3>
+        <div class="process-step">
+            <div class="step-number">1</div>
+            <div>
+                <h4>건강 설문지 작성</h4>
+                <p>93개 문항의 건강 설문지를 작성하여 기본적인 건강 상태와 체질, 생활 습관을 정확히 파악합니다.</p>
+                <p>설문지는 신체 각 부위의 상태, 생활 습관, 일상적인 컨디션 등을 종합적으로 평가합니다.</p>
+            </div>
+        </div>
+        
+        <div class="process-step">
+            <div class="step-number">2</div>
+            <div>
+                <h4>심층 상담</h4>
+                <p>설문지를 바탕으로 유선, 대면, 이메일 등을 통한 더 깊은 심층 상담을 진행합니다.</p>
+                <p>약사가 직접 상담하며 개인의 건강 상태를 파악하고 최적의 천연 허브 솔루션을 제안합니다.</p>
+            </div>
+        </div>
+        
+        <div class="process-step">
+            <div class="step-number">3</div>
+            <div>
+                <h4>맞춤 조제</h4>
+                <p>상담을 바탕으로 개인의 상태에 최적화된 미소산 제품을 조제합니다.</p>
+                <p>40여종의 엄선된 천연 허브와 식물 추출물을 개인별 상태에 맞게 배합하여 조제합니다.</p>
+            </div>
+        </div>
+        
+        <div class="process-step">
+            <div class="step-number">4</div>
+            <div>
+                <h4>픽업 안내</h4>
+                <p>조제가 완료되면 고객에게 픽업 안내를 진행하며 고객 방문 픽업을 진행합니다.</p>
+                <p>제품 수령 시 복용법과 주의사항에 대한 상세한 안내를 제공합니다.</p>
+            </div>
+        </div>
+        
+        <div class="process-step">
+            <div class="step-number">5</div>
+            <div>
+                <h4>미리 알림</h4>
+                <p>고객이 희망할 경우, 최초 제공된 미소산 제품이 소진되기 전에 미리 알림을 진행합니다.</p>
+                <p>복용 중단 없이 지속적인 관리가 가능하도록 알림 서비스를 제공합니다.</p>
+            </div>
+        </div>
+        
+        <div class="process-step">
+            <div class="step-number">6</div>
+            <div>
+                <h4>건강 상태 체크</h4>
+                <p>복용 후의 상태 변화를 지속적으로 체크하여 필요시 약제를 조절합니다.</p>
+                <p>복용 결과를 기반으로 맞춤형 조제를 지속적으로 수정하여 최적의 효과를 제공합니다.</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>고객 후기</h2>
+        <div class="testimonial">
+            <p>"미소산을 6개월째 복용 중입니다. 두피가 항상 불편했는데, 이제는 많이 개선되었어요. 모발 상태도 눈에 띄게 좋아졌습니다."</p>
+        </div>
+        
+        <div class="testimonial">
+            <p>"평소 컨디션이 좋지 않았는데, 미소산을 복용하면서 전반적인 건강 상태가 개선되는 느낌입니다. 천연 허브의 힘이 체내 균형을 회복해주는 것 같아요."</p>
+        </div>
+        
+        <div class="testimonial">
+            <p>"직장 스트레스로 인해 컨디션이 좋지 않았는데, 미소산 복용 후 현저히 개선되었습니다. 또한 미리 알림 서비스로 매번 편하게 재주문할 수 있어 좋습니다. 약사님의 꼼꼼한 상담과 관리에 감사드립니다."</p>
+        </div>
+    </section>
+
+    <section>
+        <h2>자주 묻는 질문</h2>
+        <div class="faq-item">
+            <p class="faq-question">미소산은 어떤 제품인가요?</p>
+            <p>미소산은 천연 허브와 식물 추출물을 기반으로 한 맞춤형 조제약입니다. 체내의 과도한 열을 조절하고 전반적인 건강 균형을 회복하는 데 중점을 둡니다. 개인별 맞춤 조제를 통해 최적의 효과를 제공합니다.</p>
+        </div>
+        
+        <div class="faq-item">
+            <p class="faq-question">미소산은 어떤 분들에게 적합한가요?</p>
+            <p>미소산은 체내 열 조절이 필요한 분, 두피와 모발 건강이 걱정되는 분, 피부 건강 개선을 원하는 분, 간 건강 관리가 필요한 분, 일상적인 스트레스로 인한 불편함을 겪는 분들에게 적합합니다. 개인별 맞춤 조제를 통해 각자의 상태에 맞는 솔루션을 제공해 드립니다.</p>
+        </div>
+        
+        <div class="faq-item">
+            <p class="faq-question">복용 기간은 어느 정도인가요?</p>
+            <p>미소산은 개인의 상태에 따라 복용 기간이 달라질 수 있으나, 일반적으로 최소 3개월 이상의 꾸준한 복용을 권장합니다. 만성적인 컨디션 개선을 위해서는 6개월 이상 복용하시는 것이 좋습니다. 정확한 복용 기간은 개인별 상담을 통해 결정됩니다.</p>
+        </div>
+        
+        <div class="faq-item">
+            <p class="faq-question">부작용은 없나요?</p>
+            <p>미소산은 천연 허브와 자연 성분을 기반으로 한 제품으로, 일반적으로 심각한 부작용은 보고되지 않았습니다. 다만 특정 성분에 알레르기가 있거나 현재 복용 중인 약물이 있다면 상담 시 반드시 말씀해 주셔야 합니다. 개인별 체질과 상태에 맞게 조제되므로 부작용의 위험을 최소화합니다.</p>
+        </div>
+        
+        <div class="faq-item">
+            <p class="faq-question">한방 원리도 적용되나요?</p>
+            <p>미소산은 주로 천연 허브와 식물 추출물을 기반으로 하지만, 한의학의 균형 원리에서도 영감을 받았습니다. 체내 수분과 열의 균형을 맞추는 수승화강(水升火降)의 원리를 현대적으로 재해석하여, 미소산의 천연 성분들이 이러한 체내 균형을 회복하는데 도움을 줄 수 있도록 설계되었습니다.</p>
+        </div>
+    </section>
+
+    <section id="consultation">
+        <h2>건강 상담 시작하기</h2>
+        <div style="display: flex; justify-content: space-between; margin-top: 40px; flex-wrap: wrap;">
+            <div style="flex: 1; margin-right: 20px; min-width: 300px;">
+                <h3>미소산약국 위치 및 연락처</h3>
+                <p><strong>위치</strong><br>
+                서울 강남구 테헤란로 503<br>
+                하이브로빌딩 2층 203호</p>
+                
+                <p><strong>운영 시간</strong><br>
+                월, 화, 수, 금 09:00 ~ 19:00<br>
+                토 09:00 ~ 13:30<br>
+                점심시간 13:00 ~ 14:00<br>
+                휴무일: 목, 일, 공휴일</p>
+            </div>
+            
+            <div style="flex: 1; min-width: 300px;">
+                <h3>맞춤 상담 신청</h3>
+                <p>천연 허브의 균형으로 건강한 몸을 위한 첫 걸음, 지금 바로 상담을 신청해보세요.</p>
+                
+                <p><strong>상담 절차</strong></p>
+                <ul>
+                    <li>91개 문항 설문지 작성</li>
+                    <li>약국 방문 또는 유선 상담 예약</li>
+                    <li>약사와 심층 상담</li>
+                    <li>맞춤 미소산 조제 및 수령</li>
+                </ul>
+                
+                <a href="#" class="cta-button">상담 신청하기</a>
+            </div>
+        </div>
+    </section>
+</div>
+
+<footer>
+    <div class="container">
+        <p>&copy; 2025 미소산약국. All rights reserved.</p>
+    </div>
+</footer>
+
+</body>
+</html>
